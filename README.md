@@ -1,6 +1,6 @@
 # VGSE: Visually-Grounded Semantic Embeddings for Zero-Shot Learning
 
-The current project page provides [pytorch](http://pytorch.org/) code that implements the following paper:   
+The current project page provides [pytorch](http://pytorch.org/) code that implements the following [CVPR 2022](https://cvpr2022.thecvf.com/) paper:   
 **Title:**      "VGSE: Visually-Grounded Semantic Embeddings for Zero-Shot Learning"    
 **Authors:**     Wenjia Xu, Yongqin Xian, Jiuniu Wang, Bernt Schiele, Zeynep Akata    
 
