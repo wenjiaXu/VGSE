@@ -18,7 +18,7 @@ PyTorch = 1.8.1
 ## test
 
 Please download the VGSE embeddings, w2v embeddings, and image features here: [data](https://drive.google.com/file/d/16PYq75orhr0UoE1OejjMfhullkr5ZZ9N/view?usp=sharing), and place it in *./SJE/*.
-The data folder contains the files listed below:
+The data folder contains the files listed below (take AWA2 dataset as an example):
 
 ./data/AWA2/VGSE_SMO.mat:        Class embeddings learnt for AWA2 dataset.
 
@@ -26,17 +26,7 @@ The data folder contains the files listed below:
 
 ./data/AWA2/res101.mat:          Image features.
 
-./data/CUB/VGSE_SMO.mat:         Class embeddings learnt for CUB dataset.
 
-./data/CUB/word2vec_splits.mat: W2v embeddings learnt for CUB dataset.
-
-./data/CUB/res101.mat:           Image features.
-
-./data/SUN/VGSE_SMO.mat:         Class embeddings learnt for SUN dataset.
-
-./data/SUN/word2vec_splits.mat: W2v embeddings learnt for SUN dataset.
-
-./data/SUN/res101.mat:           Image features.
 
 To reproduce the results of applying our VGSE embeddings on SJE model, please run the following scripts:
 
