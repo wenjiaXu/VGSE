@@ -15,14 +15,30 @@ Python 3.7.7
 
 PyTorch = 1.8.1
 
-<!-- ## test
+## test
 
-Please download the VGSE embeddings [VGSE embeddings](), and place it in *./SJE/*.
+Please download the VGSE embeddings, w2v embeddings, and image features here: [data](https://drive.google.com/file/d/16PYq75orhr0UoE1OejjMfhullkr5ZZ9N/view?usp=sharing), and place it in *./SJE/*.
+The data folder contains the files listed below.
+
+data:
+./data/AWA2/VGSE_SMO.mat:        Class embeddings learnt for AWA2 dataset.
+./data/AWA2/word2vec_splits.mat: W2v embeddings learnt for AWA2 dataset.
+./data/AWA2/res101.mat:          Image features.
+
+./data/CUB/VGSE_SMO.mat:         Class embeddings learnt for CUB dataset.
+./data/CUB/word2vec_splits.mat: W2v embeddings learnt for CUB dataset.
+./data/CUB/res101.mat:           Image features.
+
+./data/SUN/VGSE_SMO.mat:         Class embeddings learnt for SUN dataset.
+./data/SUN/word2vec_splits.mat: W2v embeddings learnt for SUN dataset.
+./data/SUN/res101.mat:           Image features.
 
 To reproduce the results of applying our VGSE embeddings on SJE model, please run the following scripts:
-sh scripts/AWA2.sh
-sh scripts/CUB.sh
-sh scripts/SUN.sh
+
+sh ./SJE/scripts/AWA2.sh
+sh ./SJE/scripts/CUB.sh
+sh ./SJE/scripts/SUN.sh
+
 <!-- - Data split and APN image features: please download the [data](https://drive.google.com/file/d/12ZsOxlkKU0IfXEfhB8NHRvHzfGFdwlhB/view?usp=sharing) folder and place it in *./data/*.
 
 - Pre-trained models: please download the [pre-trained models](https://drive.google.com/file/d/1c5scuU0kZS5a9Rz3kf5T0UweCvOpGsh2/view?usp=sharing) and place it in *./pretrained_models/*.
